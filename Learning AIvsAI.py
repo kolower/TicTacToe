@@ -190,9 +190,7 @@ for iteration in range(num_iterations):
         if current_state is "Draw":
             print("Draw!")
 
-        # time.sleep(1)
 print('Training Complete!')
 
-# Save state values for future use
 np.savetxt('trained_state_values_X.txt', state_values_for_AI_X, fmt='%.6f')
 np.savetxt('trained_state_values_O.txt', state_values_for_AI_O, fmt='%.6f')
